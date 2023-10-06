@@ -1,12 +1,18 @@
+<<<<<<< HEAD
+import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faGithub} from '@fortawesome/free-brands-svg-icons';
+=======
+>>>>>>> ac5b43addfb00cb251f714359cc7949f1acebe2a
 // import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 const navbar = () => {
   return (
     <>
-    <nav class="bg-gradient-to-r from-blue-600 via-blue-400 to-blue-200 ...">
-        <div class="relative w-[1080px] mx-auto flex items-center justify-between ">
+    <nav className="bg-gradient-to-r from-blue-600 via-blue-400 to-blue-200 ...">
+        <div className="relative w-[1080px] mx-auto flex items-center justify-between ">
 
             
-            <a href="/" class="cursor-pointer py-7 pr-7 flex space-x-4">
+            <a href="/" className="cursor-pointer py-7 pr-7 flex space-x-4">
                 <img
                 src="./src/Assets/images/blockchainlogo.jpg"
                 width="40px"
@@ -56,10 +62,12 @@ const navbar = () => {
 
             <div class="flex space-x-6">
                 <img
-                    src=""
-                    width="28px"
-                    height="20px"
-                    />
+                    src="./src/Assets/images/india-flag.svg"
+                    width="40px"
+                     />
+                <a href="https://github.com/Sanskar-12/VH23-36-Git4git" className="mt-2 text-2xl">
+                    <FontAwesomeIcon icon={faGithub} />
+                </a>
                 <button class="py-3 px-5 font-mullish text-white border-lightBlue border
                 rounded-sm text-sm  font-bold">Log in</button>
                 <button class="py-3 px-4 font-mullish rounded-sm text-sm font-bold

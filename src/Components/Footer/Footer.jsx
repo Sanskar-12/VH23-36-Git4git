@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faLinkedin, faGithub, faYoutube} from '@fortawesome/free-brands-svg-icons';
 
@@ -22,7 +22,7 @@ function Footer() {
           <FontAwesomeIcon icon={faYoutube} />
           <FontAwesomeIcon icon={faLinkedin} />
         </div>
-        <div class="">
+        <div className="">
             <p>@ 2023 Git4Git, Inc All rights reserved</p>
         </div>
       </div>

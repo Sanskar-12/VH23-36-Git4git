@@ -1,6 +1,9 @@
+<<<<<<< HEAD
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faGithub} from '@fortawesome/free-brands-svg-icons';
+=======
+>>>>>>> ac5b43addfb00cb251f714359cc7949f1acebe2a
 // import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 const navbar = () => {
   return (

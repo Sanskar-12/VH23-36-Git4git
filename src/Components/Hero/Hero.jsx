@@ -1,4 +1,7 @@
-
+// import Image01 form "/src/Assets/images/blockchain.png";
+import Image02 from "/src/Assets/images/document01.png";
+import Image03 from "/src/Assets/images/document02.png";
+import Image01 from "/src/Assets/images/document03.png";
 
 function Hero() {
   return (
@@ -12,25 +15,31 @@ function Hero() {
             Securely create and verify documents with blockchain technology.
           </p>
           <div className="space-x-4">
-            <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-6 rounded-full">
+            <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-4 px-10 text-md ">
               Create
             </button>
-            <button className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-4 px-6 rounded-full">
+            <button className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-4 px-10 text-md">
               Verify
             </button>
           </div>
         </div>
         <div className="flex flex-row justify-center items-center mt-9">
           <img
-            src="./src/Assets/images/leftheroimg.png"
+            src={Image03}
             alt="NoleftsectionImg"
-            className="w-[500px]"
+            className="w-[600px]"
           />
-          <img
-            src="./src/Assets/images/rightheroimg.png"
-            alt=""
-            className="w-[500px]"
+           <img
+            src={Image01}
+            alt="NoleftsectionImg"
+            className="w-[450px]"
           />
+           <img
+            src={Image02}
+            alt="NoleftsectionImg"
+            className="w-[600px]"
+          />
+          
         </div>
       </section>
     </>

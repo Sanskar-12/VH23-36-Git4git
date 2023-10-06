@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 // Sample testimonial data
 const testimonialData = [
@@ -6,28 +6,24 @@ const testimonialData = [
     id: 1,
     name: 'Sanchit Tripathi',
     imageSrc: './src/Assets/images/sanchit.png',
-    text: 'Captain',
     text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis ipsum repellendus voluptatibus vel incidunt modi laborum reiciendis saepe dolore ad.',
   },
   {
     id: 2,
     name: 'Prasad Vavdane',
     imageSrc: './src/Assets/images/prasad.png',
-    text: 'Member',
     text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis ipsum repellendus voluptatibus vel incidunt modi laborum reiciendis saepe dolore ad.',
   },
   {
     id: 3,
     name: 'Ayush Singh',
     imageSrc: './src/Assets/images/ayush.png',
-    text: 'Member',
     text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis ipsum repellendus voluptatibus vel incidunt modi laborum reiciendis saepe dolore ad.',
   },
   {
     id: 4,
     name: 'Sanskar Vishwakarma',
     imageSrc: './src/Assets/images/sanskar.png',
-    text: 'Member',
     text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis ipsum repellendus voluptatibus vel incidunt modi laborum reiciendis saepe dolore ad.',
   },
 ];
@@ -57,4 +53,4 @@ const Testimonials = () => {
   );
 };
 
-export default Testimonials;
+export default Testimonials;

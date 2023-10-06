@@ -1,4 +1,4 @@
-
+import React from 'react';
 
 // Sample testimonial data
 const testimonialData = [
@@ -7,28 +7,28 @@ const testimonialData = [
     name: 'Sanchit Tripathi',
     imageSrc: './src/Assets/images/sanchit.png',
     text: 'Captain',
-    role: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis ipsum repellendus voluptatibus vel incidunt modi laborum reiciendis saepe dolore ad.',
+    text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis ipsum repellendus voluptatibus vel incidunt modi laborum reiciendis saepe dolore ad.',
   },
   {
     id: 2,
     name: 'Prasad Vavdane',
     imageSrc: './src/Assets/images/prasad.png',
     text: 'Member',
-    role: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis ipsum repellendus voluptatibus vel incidunt modi laborum reiciendis saepe dolore ad.',
+    text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis ipsum repellendus voluptatibus vel incidunt modi laborum reiciendis saepe dolore ad.',
   },
   {
     id: 3,
     name: 'Ayush Singh',
     imageSrc: './src/Assets/images/ayush.png',
     text: 'Member',
-    role: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis ipsum repellendus voluptatibus vel incidunt modi laborum reiciendis saepe dolore ad.',
+    text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis ipsum repellendus voluptatibus vel incidunt modi laborum reiciendis saepe dolore ad.',
   },
   {
     id: 4,
     name: 'Sanskar Vishwakarma',
     imageSrc: './src/Assets/images/sanskar.png',
     text: 'Member',
-    role: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis ipsum repellendus voluptatibus vel incidunt modi laborum reiciendis saepe dolore ad.',
+    text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis ipsum repellendus voluptatibus vel incidunt modi laborum reiciendis saepe dolore ad.',
   },
 ];
 
@@ -44,10 +44,11 @@ const Testimonials = () => {
             >
               <img
                 src={testimonial.imageSrc}
+                alt={testimonial.name}
                 className="mx-auto w-32 h-32 rounded-full mt-6"
               />
               <h3 className="text-xl font-semibold text-center mt-4">{testimonial.name}</h3>
-              <p className="text-gray-600 text-center p-4">{testimonial.role}</p>
+              <p className="text-gray-600 text-center p-4">{testimonial.text}</p>
             </div>
           ))}
         </div>
@@ -56,4 +57,4 @@ const Testimonials = () => {
   );
 };
 
-export default Testimonials;
+export default Testimonials;

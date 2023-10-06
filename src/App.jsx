@@ -8,6 +8,7 @@ import Help from "./Components/Help/help"
 import Technology from "./Components/Technology/technology"
 import Login from "./Components/Login/login"
 import Register from "./Components/Register/register"
+import Form from "./Components/Form/form"
 import {BrowserRouter as Router,Route,Routes} from "react-router-dom"
 
 
@@ -24,6 +25,7 @@ const App = () => {
         <Route path="/technology" element={<Technology/>}/>
         <Route path="/login" element={<Login/>}/>
         <Route path="/register" element={<Register/>}/>
+        <Route path="/form" element={<Form/>}/>
       </Routes>
 
       <Footer />

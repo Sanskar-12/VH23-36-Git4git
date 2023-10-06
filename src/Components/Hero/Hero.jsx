@@ -1,7 +1,9 @@
 // import Image01 form "/src/Assets/images/blockchain.png";
+import { Link } from "react-router-dom";
 import Image02 from "/src/Assets/images/document01.png";
 import Image03 from "/src/Assets/images/document02.png";
 import Image01 from "/src/Assets/images/document03.png";
+// import Form from "/src/Components/Form/form"
 
 function Hero() {
   return (
@@ -15,9 +17,12 @@ function Hero() {
             Securely create and verify documents with blockchain technology.
           </p>
           <div className="space-x-4">
+            <Link to={"/form"}>
             <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-4 px-10 text-md ">
               Create
             </button>
+            </Link>
+            
             <button className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-4 px-10 text-md">
               Verify
             </button>

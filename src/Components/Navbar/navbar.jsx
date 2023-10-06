@@ -62,10 +62,14 @@ const navbar = () => {
             <div className="flex space-x-6">
                 <img
 
-                    src=""
+                    src="./src/Assets/images/india-flag.svg"
                     width="28px"
                     height="20px"
                     />
+                   <div className='mt-2 text-2xl'>
+                   <a href="https://github.com/Sanskar-12/VH23-36-Git4git"><FontAwesomeIcon icon={faGithub} /></a>
+                   </div>
+
                 <button className="py-3 px-5 font-mullish text-md text-white border-lightBlue hover:bg-wheat hover:text-deepBlue
                 border rounded-sm  font-bold">Log in</button>
                 <button className="py-3 px-4 font-mullish rounded-sm text-md font-bold

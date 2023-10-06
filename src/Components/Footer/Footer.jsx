@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faLinkedin, faGithub, faYoutube} from '@fortawesome/free-brands-svg-icons';
 
@@ -15,14 +15,14 @@ function Footer() {
           <a href="">Services</a>
           <a href="">Help</a>
         </div>
-        <div class="space-x-3 text-2xl my-4">
+        <div className="space-x-3 text-2xl my-4">
           <FontAwesomeIcon icon={faFacebook} /> {/* Use the imported faFacebook icon */}
           <FontAwesomeIcon icon={faInstagram} />
           <FontAwesomeIcon icon={faGithub} />
           <FontAwesomeIcon icon={faYoutube} />
           <FontAwesomeIcon icon={faLinkedin} />
         </div>
-        <div class="">
+        <div className="">
             <p>@ 2023 Git4Git, Inc All rights reserved</p>
         </div>
       </div>

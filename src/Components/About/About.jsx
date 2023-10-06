@@ -1,3 +1,4 @@
+
 import React from 'react'
 import Testimonial from '../Testimonial/testimonial'
 const About = () => {
@@ -22,3 +23,4 @@ const About = () => {
 }
 
 export default About
+

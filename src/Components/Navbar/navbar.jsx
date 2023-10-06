@@ -1,9 +1,8 @@
-<<<<<<< HEAD
+
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faGithub} from '@fortawesome/free-brands-svg-icons';
-=======
->>>>>>> ac5b43addfb00cb251f714359cc7949f1acebe2a
+
 // import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 const navbar = () => {
   return (
@@ -17,62 +16,62 @@ const navbar = () => {
                 src="./src/Assets/images/blockchainlogo.jpg"
                 width="40px"
                 height="20px"/>
-                <p class="text-white font-bold mt-2 text-lg">Git4Git</p>
+                <p className="text-white font-bold mt-2 text-lg">Git4Git</p>
             </a>
 
-            <ul class="flex space-x-6">
-            <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer
+            <ul className="flex space-x-6">
+            <li className="text-white font-mullish text-lg py-7 hover:text-pink cursor-pointer
                  transition-all duration-200 relative group">
                 <a href="#">Home</a>
 
-                <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block
+                <div className="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block
                 transition-all duration-200" ></div>
                 </li>
-                <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer
+                <li className="text-white font-mullish text-lg py-7 hover:text-pink cursor-pointer
                  transition-all duration-200 relative group">
                 <a href="#">About Us</a>
 
-                <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block
+                <div className="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block
                 transition-all duration-200" ></div>
                 </li>
-                <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer
+                <li className="text-white font-mullish text-lg py-7 hover:text-pink cursor-pointer
                  transition-all duration-200 relative group">
                 <a href="#">Technology</a>
 
-                <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block
+                <div className="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block
                 transition-all duration-200" ></div>
                 </li>
 
-                <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer
+                <li className="text-white font-mullish text-lg py-7 hover:text-pink cursor-pointer
                  transition-all duration-200 relative group">
                 <a href="#">Services</a>
 
-                <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block
+                <div className="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block
                 transition-all duration-200" ></div>
                 </li>
                 
-                <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer
+                <li className="text-white font-mullish text-lg py-7 hover:text-pink cursor-pointer
                  transition-all duration-200 relative group">
                 <a href="#">Help</a>
 
-                <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block
+                <div className="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block
                 transition-all duration-200" ></div>
                 </li>
             </ul>
 
-            <div class="flex space-x-6">
+            <div className="flex space-x-6">
                 <img
-                    src="./src/Assets/images/india-flag.svg"
-                    width="40px"
-                     />
-                <a href="https://github.com/Sanskar-12/VH23-36-Git4git" className="mt-2 text-2xl">
-                    <FontAwesomeIcon icon={faGithub} />
-                </a>
-                <button class="py-3 px-5 font-mullish text-white border-lightBlue border
-                rounded-sm text-sm  font-bold">Log in</button>
-                <button class="py-3 px-4 font-mullish rounded-sm text-sm font-bold
+
+                    src=""
+                    width="28px"
+                    height="20px"
+                    />
+                <button className="py-3 px-5 font-mullish text-md text-white border-lightBlue hover:bg-wheat hover:text-deepBlue
+                border rounded-sm  font-bold">Log in</button>
+                <button className="py-3 px-4 font-mullish rounded-sm text-md font-bold
+
                 bg-white text-lightBlue300 border transition-all duration-200
-                hover:text-lightBlue500 flex">Sign Up
+                hover:bg-deepBlue hover:text-wheat flex">Sign Up
                 </button>
             </div>
 

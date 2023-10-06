@@ -19,6 +19,8 @@ export default {
       grayBlue: "#344a6c",
       deepBlueHead: "#162f56",
       gray2: "#525a76",
+      wheat : "#8B4513",
+      pink: "#FFD700",
     },
 
     },

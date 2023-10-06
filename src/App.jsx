@@ -10,6 +10,8 @@ import Services from "./Components/Services/services"
 import Technology from "./Components/Technology/technology"
 import Login from "./Components/Login/login"
 import Register from "./Components/Register/register"
+
+
 const App = () => {
   return (
     <>
@@ -23,11 +25,13 @@ const App = () => {
         <Route path="/technology" element={<Technology/>}/>
         <Route path="/login" element={<Login/>}/>
         <Route path="/register" element={<Register/>}/>
-        <Footer />
-        </Routes>
-        </Router>
-        </>
-       
+        <Route path="/form" element={<Form/>}/>
+      </Routes>
+
+      <Footer />
+      
+    </>
+
   );
 }
 export default App;

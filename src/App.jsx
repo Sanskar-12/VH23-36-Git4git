@@ -1,15 +1,16 @@
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import Home from './components/Home';
-import About from './components/About';
+// import Navbar from './components/Navbar';
+// import Footer from './components/Footer';
+import Navbar from "./Components/Navbar/navbar";
+import Hero from "./Components/Hero/Hero";
+
+
 
 const App = () => {
   return (
     <>
       <Navbar />
-      <Home />
-      <About />
-      <Footer />
+      <Hero />
     </>
   );
 }
+export default App;

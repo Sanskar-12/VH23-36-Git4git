@@ -1,13 +1,21 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faGithub} from '@fortawesome/free-brands-svg-icons';
 =======
+=======
+
+>>>>>>> eb3536f1de1af371f62ee31ec3ca41b2a52a1ea0
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
+<<<<<<< HEAD
 >>>>>>> 6df1bf2c4dd7f4a1724634a19ce2fca344ded7b5
+=======
+
+>>>>>>> eb3536f1de1af371f62ee31ec3ca41b2a52a1ea0
 
 // import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 const navbar = () => {

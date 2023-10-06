@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/navbar";
 
@@ -13,6 +14,9 @@ function About() {
 
 export default About
 =======
+=======
+
+>>>>>>> eb3536f1de1af371f62ee31ec3ca41b2a52a1ea0
 import React from 'react'
 import Testimonial from '../Testimonial/testimonial'
 const About = () => {
@@ -37,4 +41,8 @@ const About = () => {
 }
 
 export default About
+<<<<<<< HEAD
 >>>>>>> 6df1bf2c4dd7f4a1724634a19ce2fca344ded7b5
+=======
+
+>>>>>>> eb3536f1de1af371f62ee31ec3ca41b2a52a1ea0

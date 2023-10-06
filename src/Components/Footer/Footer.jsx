@@ -15,7 +15,7 @@ function Footer() {
           <a href="">Services</a>
           <a href="">Help</a>
         </div>
-        <div class="space-x-3 text-2xl my-4">
+        <div className="space-x-3 text-2xl my-4">
           <FontAwesomeIcon icon={faFacebook} /> {/* Use the imported faFacebook icon */}
           <FontAwesomeIcon icon={faInstagram} />
           <FontAwesomeIcon icon={faGithub} />

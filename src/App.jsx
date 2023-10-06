@@ -8,11 +8,6 @@ import Footer from "./Components/Footer/Footer"
 const App = () => {
   return (
     <>
-    <BrowserRouter>
-    <Routes>
-      <Route ></Route>
-    </Routes>
-    </BrowserRouter>
       <Navbar />
       <Hero />
       <Footer />

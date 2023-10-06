@@ -1,3 +1,8 @@
+
+import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faGithub} from '@fortawesome/free-brands-svg-icons';
+
 // import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 const navbar = () => {
   return (
@@ -56,6 +61,7 @@ const navbar = () => {
 
             <div className="flex space-x-6">
                 <img
+
                     src=""
                     width="28px"
                     height="20px"
@@ -63,6 +69,7 @@ const navbar = () => {
                 <button className="py-3 px-5 font-mullish text-md text-white border-lightBlue hover:bg-wheat hover:text-deepBlue
                 border rounded-sm  font-bold">Log in</button>
                 <button className="py-3 px-4 font-mullish rounded-sm text-md font-bold
+
                 bg-white text-lightBlue300 border transition-all duration-200
                 hover:bg-deepBlue hover:text-wheat flex">Sign Up
                 </button>

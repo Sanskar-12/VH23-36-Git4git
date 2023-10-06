@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 const Technology = () => {
@@ -69,3 +70,4 @@ const Technology = () => {
 };
 
 export default Technology;
+
